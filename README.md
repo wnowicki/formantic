@@ -1,6 +1,6 @@
 # ![FormAntic](resources/logo.svg)
 
-WTForm generator for Pydantic
+WTForm generator for Pydantic (for SQLAdmin)
 
 [![python](https://img.shields.io/badge/Python-3.10-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![ruff](https://github.com/wnowicki/formantic/workflows/Ruff/badge.svg)](https://github.com/wnowicki/formantic/actions?query=branch%3Amain)

@@ -1,18 +1,24 @@
 [build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
 
 [project]
-name = "pytemp"
-description = "A simple Python package template"
+name = "formantic"
+description = "WTForm generator for Pydantic"
+authors = [{name = "Wojciech Nowicki", email="wnowicki@me.com"}]
 dynamic = ["version"]
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 readme = "README.md"
 license = { file = "LICENSE.md"}
+dependencies = [
+]
 
 [project.urls]
-"Homepage" = "https://github.com/wnowicki/pytemp"
-"Source" = "https://github.com/wnowicki/pytemp"
+"Homepage" = "https://github.com/wnowicki/formantic"
+"Source" = "https://github.com/wnowicki/formantic"
+
+[tool.pdm]
+version = {source = "scm"}
 
 [tool.pytest.ini_options]
 minversion = "6.0"
@@ -21,9 +27,6 @@ testpaths = [
     "tests",
 ]
 pythonpath = "."
-
-[project.scripts]
-my_app = "app.main:main"
 
 [tool.ruff]
 

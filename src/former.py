@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from wtforms import StringField, BooleanField, Field, IntegerField, SelectField, TextAreaField
+from wtforms import BooleanField, Field, IntegerField, SelectField, StringField, TextAreaField
 from wtforms.form import BaseForm
 
 

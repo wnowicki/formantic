@@ -58,7 +58,7 @@ form = BaseForm(form_schema)
 form.process()
 ```
 
-Then work with the for as with normal WTForms
+Then work with the form as with normal WTForms
 
 ## Test
 

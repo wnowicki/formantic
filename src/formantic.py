@@ -14,6 +14,7 @@ class Former:
         return BaseForm(self.gen_form_schema())
 
     def gen_form_schema(self) -> dict[str, Field]:
+        """Generate a schema for WTForms fields based on the Pydantic model."""
         base_schema = self.model.model_json_schema()
         form_schema = {}
 
